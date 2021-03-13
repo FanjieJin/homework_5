@@ -1,0 +1,350 @@
+/* FOR HOME PAGE */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+header{
+	height:100px;
+	background:#FFFFFF;
+	width: 100%;
+	z-index: 12;
+	position: fixed;
+}
+
+.banner h2{
+	color: rgb(109, 110, 220);
+}
+
+.navbar{
+	width: 100%;
+	height:13vh;
+	margin: auto;
+	display: flex;
+	align-items: baseline;
+
+}
+
+/* For navigation bar */
+
+.logo{
+	padding-left: 25px;
+	padding-top: 10px;
+	width: 180px;
+	cursor: pointer;
+}
+
+.navbar ul li{
+
+	display: inline-flex;
+	list-style: none;
+	color: #ff;
+	width: 50px;
+	margin:0px 10px;
+	padding:15px;
+}
+
+nav{
+	flex:1;
+	padding-left: 60px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #111 ;
+}
+
+
+/* For navigation bar */
+
+.banner{
+	width: 100%;
+	height:850px;
+	position: relative;
+	top: 90px;
+	background: url(../img/b1.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.banner h2{
+	padding-top: 7%;
+	font-size: 20px;
+	margin-bottom:100px;
+	font-weight: 100;
+	position:absolute;
+	top: 39%;
+	left: 55%;
+	margin-right: 60px;
+}
+
+/* Menu button */
+
+.banner .button{
+	display: inline-block;
+	position:absolute;
+	top: 62%;
+	left: 55%;
+
+	background: linear-gradient(#87adfd, #ff77cd);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+
+
+.banner .button:hover {
+    box-shadow: 9px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* menu page background */
+
+#features{
+	width: 100%;
+	height:700px;
+	position: relative;
+	background: url(../img/b2.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.content h3{
+	padding-top: 7%;
+	font-size: 20px;
+	margin-bottom:100px;
+	font-weight: 100;
+	position:absolute;
+	top: -2%;
+	left: 45%;
+}
+
+/* featured boxes */
+
+.content .box1{
+	top: 100px;
+	position: relative;
+    text-align: center;
+    float: left;
+    width: 20%;
+    padding: 20px;
+    margin: 4.8%;
+    background-color: #fff;
+
+}
+
+.content .box1:hover {
+    box-shadow: 9px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.content .box1 img{
+	width:90%;
+}
+
+
+.box1 p{
+	color: rgb(109, 110, 164)
+}
+
+.box1 p2{
+	color: rgb(109, 110, 164);
+}
+
+/* FOR MENU PAGE */
+
+#boxes {
+	width: 100%;
+	height:1200px;
+	position: relative;
+	background: url(../img/b2.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+/* featured boxes */
+
+#boxes .box {
+	top: 140px;
+	position: relative;
+    text-align: center;
+    float: left;
+    width: 20%;
+    padding: 20px;
+    margin: 4.8%;
+    background-color: #fff;
+}
+
+#boxes .box img {
+    width: 90%;
+}
+
+#boxes .box:hover {
+    box-shadow: 9px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#boxes .page-title h1{
+	color: rgb(109, 110, 164);
+    top:150px;
+    position: relative;
+    text-align: center;
+}
+
+.container p{
+	color: rgb(109, 110, 164);
+}
+
+/* FOR ALL DETAIL PAGES */
+
+#detail-box {
+	width: 100%;
+	height:1000px;
+	position: relative;
+	background: url(../img/b2.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+/* detailed boxes */
+
+#detail-box .container2 {
+	top:140px;
+	position: relative;
+    float: left;
+    width: 90%;
+}
+
+/* images for the cinnamon rolls */
+
+#detail-box .box-detail img {
+	position: absolute;
+	top:60px;
+	left:40px;
+    width: 30%;
+    background-color: #fff
+}
+
+#detail-box .description {
+    float: right;
+    width: 60%;
+}
+
+/* detail descriptions */
+
+.description-title {
+    text-align: left;
+    color: black;
+    font-family: 'Helvetica';
+    color: rgb(109, 110, 164);
+    font-size: 30px;
+}
+
+.description h2 {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: rgb(109, 110, 164);
+}
+
+.description p1 {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: rgb(109, 110, 164);
+}
+
+/* introduction to the BunBun Bake Shop */
+
+.custom {
+    color: rgb(109, 110, 164);
+    background-color: white;
+    width:112px;
+    border: 2px solid rgb(109, 110, 164);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.custom2 {
+    color: rgb(109, 110, 164);
+    background-color: white;
+    width:250px;
+    border: 2px solid rgb(109, 110, 164);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* button hover */
+
+.custom:hover {
+    box-shadow: 9px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.custom2:hover {
+    box-shadow: 9px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* back buttons design */
+
+.back-button {
+	color: #fff;
+    background-color:rgb(109, 110, 164);
+    border: 2px solid rgb(109, 110, 164);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-right: 20px;
+}
+
+/* hover effect for the back button */
+
+.back-button:hover {
+	color: rgb(109, 110, 164);
+    background-color:white;
+    border: 2px solid rgb(109, 110, 164);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-right: 20px;
+}
+
+/* FOR ABOUT PAGE */
+
+/* introduction to the BunBun Bake Shop */
+
+.title-about{
+	width: 100%;
+	height:1200px;
+	position: relative;
+	background: url(../img/b3.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.title-text{
+	color: rgb(109, 110, 164);
+	top: 200px;
+	width: 60%;
+	padding-left: 50px;
+	position: relative;
+}
+
+/* image for the customer */
+
+
+.about-image{
+	top:300px;
+	position: relative;
+}
+
+
+
